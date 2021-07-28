@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building blocks", "building blocks", "{DDD7FC56-09DC-41DF-8573-11656616A6B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{0D35BE69-676A-4B17-807E-81F7F984774B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{C30A7439-80DD-43BE-849B-F9F987BA28A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BBA93925-B10C-4E75-8FFF-E9041588F800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIPECRM.Core", "src\building blocks\PIPECRM.Core\PIPECRM.Core.csproj", "{B772C8E4-C5BD-46BB-8819-4B23022DF80C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autenticacao", "Autenticacao", "{E27B7FD7-583A-446A-BD9B-24CB225DCD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIPECRM.Autenticacao.API", "src\services\PIPECRM.Autenticacao.API\PIPECRM.Autenticacao.API.csproj", "{57250266-8FFD-4D61-89B2-75231B00B0F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B772C8E4-C5BD-46BB-8819-4B23022DF80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B772C8E4-C5BD-46BB-8819-4B23022DF80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B772C8E4-C5BD-46BB-8819-4B23022DF80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B772C8E4-C5BD-46BB-8819-4B23022DF80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57250266-8FFD-4D61-89B2-75231B00B0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57250266-8FFD-4D61-89B2-75231B00B0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57250266-8FFD-4D61-89B2-75231B00B0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57250266-8FFD-4D61-89B2-75231B00B0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBA93925-B10C-4E75-8FFF-E9041588F800} = {DDD7FC56-09DC-41DF-8573-11656616A6B1}
+		{B772C8E4-C5BD-46BB-8819-4B23022DF80C} = {BBA93925-B10C-4E75-8FFF-E9041588F800}
+		{E27B7FD7-583A-446A-BD9B-24CB225DCD8E} = {0D35BE69-676A-4B17-807E-81F7F984774B}
+		{57250266-8FFD-4D61-89B2-75231B00B0F5} = {E27B7FD7-583A-446A-BD9B-24CB225DCD8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8064BEBC-56C7-419C-8E18-9693157F6D22}
+	EndGlobalSection
+EndGlobal
